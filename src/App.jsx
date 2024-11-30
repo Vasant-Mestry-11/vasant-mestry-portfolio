@@ -1,7 +1,11 @@
-import "./App.css";
+import Header from "./sectons/Header";
 
 function App() {
-  return <>hello</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
