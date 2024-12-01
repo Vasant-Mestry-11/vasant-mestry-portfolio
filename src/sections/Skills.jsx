@@ -1,6 +1,6 @@
 import VariableWeightText from "../components/VariableWeightText";
 import { SKILLS } from "../constants/Skills";
-import SkillTile from "./SkillTile";
+import SkillTile from "../components/SkillTile";
 
 const Skills = () => {
   return (
