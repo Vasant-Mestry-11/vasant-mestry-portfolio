@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-white text-black leading-5;
+  --primary: #000000;
+  --neutral: #404040;
+  --secondary: #ffffff;
+
+  @apply bg-white text-primary leading-5;
   line-height: 1.2;
 
   font-synthesis: none;
