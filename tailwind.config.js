@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sora: ["Sora", "Inter", "system-ui"]
+        Sora: ["Sora"]
       },
       colors: {
         primary: "var(--primary)",
