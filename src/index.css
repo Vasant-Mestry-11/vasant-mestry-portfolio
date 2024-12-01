@@ -7,8 +7,7 @@
   --neutral: #404040;
   --secondary: #ffffff;
 
-  @apply bg-white text-primary leading-5;
-  line-height: 1.2;
+  @apply bg-secondary text-primary leading-5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
