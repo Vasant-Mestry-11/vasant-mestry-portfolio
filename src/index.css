@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-white text-black;
+  @apply bg-white text-black leading-5;
   line-height: 1.2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+header,
+footer {
+  @apply container mx-auto px-4 py-4 lg:px-20 lg:py-6;
+}
+
+section {
+  @apply container mx-auto px-4 py-10 lg:px-20 lg:py-[60px];
 }
