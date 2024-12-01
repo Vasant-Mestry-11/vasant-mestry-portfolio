@@ -1,9 +1,11 @@
-import Header from "./sectons/Header";
+import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
     <>
       <Header />
+      <Footer />
     </>
   );
 }
