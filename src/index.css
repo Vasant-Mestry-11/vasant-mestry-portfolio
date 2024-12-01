@@ -3,4 +3,6 @@
 @tailwind utilities;
 
 :root {
+  @apply bg-white text-black;
+  line-height: 1.2;
 }

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sora: ["Sora","Inter", "system-ui"]
+      }
+    },
   },
   plugins: [],
 }
