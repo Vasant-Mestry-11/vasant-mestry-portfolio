@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 const VariableWeightText = ({ invert = false, regularText, extraBoldText }) => {
   return (
-    <h2 className={`text-5xl ${invert && "invert"}`}>
+    <h2
+      className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl${
+        invert && "invert"
+      }`}
+    >
       {regularText && <span className="me-4">{regularText}</span>}
       <span className="font-extrabold">{extraBoldText}</span>
     </h2>
