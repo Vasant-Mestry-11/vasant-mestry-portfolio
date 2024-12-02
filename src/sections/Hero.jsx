@@ -3,8 +3,8 @@ import HeroImage from "../assets/hero.svg";
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-2 gap-5">
-      <div className="left-panel flex flex-col gap-5">
+    <section className="grid md:grid-cols-2 gap-5">
+      <div className="flex flex-col gap-5 order-2 md:order-1">
         <VariableWeightText
           regularText={`Hello I'm`}
           extraBoldText="Vasant Mestry ."
@@ -18,7 +18,7 @@ const Hero = () => {
           of type and scrambled it to specimen book.`}
         </p>
       </div>
-      <div className="right-panel">
+      <div className="order-1 md:order-2">
         <img src={HeroImage} alt="hero" />
       </div>
     </section>
