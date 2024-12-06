@@ -5,6 +5,9 @@
 :root {
   --primary: #000000;
   --neutral: #404040;
+  --medium: #27272a;
+  --zinc-500: #71717a;
+  --zinc-700: #3f3f46;
   --secondary: #ffffff;
 
   @apply bg-secondary text-primary leading-5;

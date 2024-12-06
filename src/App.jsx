@@ -3,6 +3,7 @@ import Footer from "./sections/Footer";
 import Skills from "./sections/Skills";
 import AboutMe from "./sections/AboutMe";
 import Hero from "./sections/Hero";
+import Experience from "./sections/Experience";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
+      <Experience />
       <AboutMe />
       <Footer />
     </>

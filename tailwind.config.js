@@ -12,7 +12,10 @@ export default {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
-        neutral: "var(--neutral)"
+        neutral: "var(--neutral)",
+        medium: "var(--medium)",
+        "zinc-700": "var(--zinc-700)",
+        "zinc-500": "var(--zinc-500)",
       }
     },
   },
