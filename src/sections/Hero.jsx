@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="flex flex-col-reverse md:flex-row gap-10 items-center">
       <div className="flex flex-col-reverse md:flex-row gap-10">
         <div className="flex flex-col gap-8 md:w-[70%]">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-6">
             <VariableWeightText
               regularText={`Hello I'm`}
               extraBoldText="Vasant Mestry ."
