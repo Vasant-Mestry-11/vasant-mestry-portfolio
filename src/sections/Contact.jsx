@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="flex">
+    <section className="flex gap-32">
       <div className="flex flex-col gap-5 w-[100%]">
         <Input
           type="text"
@@ -52,6 +52,25 @@ const Contact = () => {
           cols={10}
           placeholder="How can I help ?"
         />
+      </div>
+      <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-5">
+          <VariableWeightText regularText="Let's" extraBoldText="talk for" />
+          <VariableWeightText extraBoldText="Something special" />
+          <p className="text-zinc-500">
+            I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
+          </p>
+        </div>
+        <div className="flex flex-col gap-4">
+          <h3 className="font-semibold text-2xl flex items-center gap-4">
+            <i className="bx bxl-gmail"></i>:
+            <span>vasantmestry07@gmail.com</span>
+          </h3>
+          <p className="font-semibold text-xl flex items-center gap-4">
+            <i className="bx bx-mobile"></i>: <span>+91-9769315424</span>
+          </p>
+        </div>
       </div>
     </section>
   );
