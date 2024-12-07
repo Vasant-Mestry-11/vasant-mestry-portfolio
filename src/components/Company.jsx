@@ -5,18 +5,18 @@ const Company = ({ id, title, description, start, end, logo }) => {
     <div
       key={id}
       className="text-secondary flex flex-col border-2 border-zinc-500 rounded-xl px-6 py-8 
-      w-[100%] gap-8 hover:bg-zinc-700 cursor-pointer"
+       gap-8 hover:bg-zinc-700 cursor-pointer"
     >
-      <span className="flex justify-between items-center w-[100%]">
+      <span className="flex justify-between flex-col gap-8 md:items-center md:flex-row w-[100%]">
         <span className="flex items-center ">
           <img src={logo} className="w-8 h-8" />
           <h4 className="text-secondary font-semibold text-2xl ms-4">
             {title}
           </h4>
         </span>
-        <p className="font-semibold">
+        <h6 className="font-semibold">
           {start} - {end}
-        </p>
+        </h6>
       </span>
       <p className="text-zinc-300 leading-relaxed">{description}</p>
     </div>
