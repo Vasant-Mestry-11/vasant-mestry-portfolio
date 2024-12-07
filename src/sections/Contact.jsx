@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Input from "../components/Input";
 import VariableWeightText from "../components/VariableWeightText";
+import Button from "../components/Button";
+import IconButton from "../components/IconButton";
+import Facebook from "../assets/facebook.svg";
+import Twitter from "../assets/x.svg";
 
 const Contact = () => {
   const [details, setDetails] = useState({
@@ -22,36 +26,51 @@ const Contact = () => {
   return (
     <section className="flex gap-32">
       <div className="flex flex-col gap-5 w-[100%]">
-        <Input
-          type="text"
-          name="name"
-          value={name}
-          onChange={handleInputChange}
-          placeholder="Your name"
-        />
-        <Input
-          type="email"
-          name="email"
-          value={email}
-          onChange={handleInputChange}
-          placeholder="Email"
-        />
-        <Input
-          type="text"
-          name="website"
-          value={website}
-          onChange={handleInputChange}
-          placeholder="Your website (if exists)"
-        />
-        <Input
-          type="textarea"
-          name="help"
-          value={help}
-          onChange={handleInputChange}
-          rows={12}
-          cols={10}
-          placeholder="How can I help ?"
-        />
+        <div className="flex flex-col gap-5 w-[100%]">
+          <Input
+            type="text"
+            name="name"
+            value={name}
+            onChange={handleInputChange}
+            placeholder="Your name"
+          />
+          <Input
+            type="email"
+            name="email"
+            value={email}
+            onChange={handleInputChange}
+            placeholder="Email"
+          />
+          <Input
+            type="text"
+            name="website"
+            value={website}
+            onChange={handleInputChange}
+            placeholder="Your website (if exists)"
+          />
+          <Input
+            type="textarea"
+            name="help"
+            value={help}
+            onChange={handleInputChange}
+            rows={12}
+            cols={10}
+            placeholder="How can I help ?"
+          />
+        </div>
+        <div className="flex gap-5">
+          <Button>Get In Touch</Button>
+          <IconButton
+            icon={Facebook}
+            link="https://www.facebook.com/prathameshvm48/"
+            classNames="h-14 w-14"
+          />
+          <IconButton
+            icon={Twitter}
+            link="https://x.com/_vasantmestry_"
+            classNames="h-14 w-14"
+          />
+        </div>
       </div>
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5">
