@@ -14,7 +14,7 @@ export const COMPANIES = [
   },
   {
     id: 2,
-    title: "Xoriant Solutions Pvt Ltd",
+    title: "Software Engineer at Xoriant Solutions Pvt Ltd",
     start: "Aug 2021",
     end: "Jun 2024",
     description: `Developed and maintained responsive web applications using React.js and Material UI library
@@ -29,7 +29,7 @@ export const COMPANIES = [
   },
   {
     id: 3,
-    title: "Deuex Solutions Pvt Ltd",
+    title: "Software Engineer at Deuex Solutions Pvt Ltd",
     start: "Oct 2020",
     end: "Jun 2021",
     description: `Enhanced user experience across multiple devices by implementing responsive designs
@@ -41,7 +41,7 @@ export const COMPANIES = [
   },
   {
     id: 4,
-    title: "Raw Engineering Pvt Ltd",
+    title: "Junior Applicaion Engineer at Raw Engineering Pvt Ltd",
     start: "Jan 2020",
     end: "Jul 2020",
     description: `Designed dynamic user interface, leveraging the capabilities of SCSS to ensure high interactivity and customization
