@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import IconButton from "../components/IconButton";
 import Facebook from "../assets/facebook.svg";
 import Twitter from "../assets/x.svg";
+import Textarea from "../components/Textarea";
 
 const Contact = () => {
   const [details, setDetails] = useState({
@@ -48,12 +49,12 @@ const Contact = () => {
             onChange={handleInputChange}
             placeholder="Your website (if exists)"
           />
-          <Input
+          <Textarea
             type="textarea"
             name="help"
             value={help}
             onChange={handleInputChange}
-            rows={12}
+            rows={5}
             cols={10}
             placeholder="How can I help ?"
           />
