@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="bg-medium">
       <section className="text-secondary flex items-center flex-col gap-16">
         <VariableWeightText regularText="My" extraBoldText="Projects" />
-        <div className="flex gap-10">
+        <div className="flex gap-10 flex-col xl:flex-row">
           <Card
             image={CountriesAPI}
             title="Countries API"
