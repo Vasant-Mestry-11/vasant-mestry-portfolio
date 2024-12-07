@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="flex gap-32">
+    <section className="flex gap-16 flex-col md:flex-row md:gap-32 ">
       <div className="flex flex-col gap-5 w-[100%]">
         <div className="flex flex-col gap-5 w-[100%]">
           <Input
@@ -83,11 +83,11 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="font-semibold text-2xl flex items-center gap-4">
+          <h3 className="font-semibold flex items-center gap-4 text-xl md:text-2xl ">
             <i className="bx bxl-gmail"></i>:
             <span>vasantmestry07@gmail.com</span>
           </h3>
-          <p className="font-semibold text-xl flex items-center gap-4">
+          <p className="font-semibold flex items-center gap-4 text-lg md:text-xl">
             <i className="bx bx-mobile"></i>: <span>+91-9769315424</span>
           </p>
         </div>
