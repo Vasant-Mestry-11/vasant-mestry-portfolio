@@ -83,11 +83,11 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="font-semibold flex items-center gap-4 text-xl md:text-2xl ">
+          <h3 className="font-semibold flex items-center gap-4 text-sm md:text-2xl ">
             <i className="bx bxl-gmail"></i>:
             <span>vasantmestry07@gmail.com</span>
           </h3>
-          <p className="font-semibold flex items-center gap-4 text-lg md:text-xl">
+          <p className="font-semibold flex items-center gap-4 text-sm md:text-xl">
             <i className="bx bx-mobile"></i>: <span>+91-9769315424</span>
           </p>
         </div>

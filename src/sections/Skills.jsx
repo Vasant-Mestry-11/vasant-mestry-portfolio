@@ -7,7 +7,7 @@ const Skills = () => {
     <section className="flex flex-col gap-16 items-center px-0 md:px-4 lg:px-8">
       <VariableWeightText regularText="My" extraBoldText="Skills" />
       <div
-        className="grid grid-cols-2
+        className="grid
         sm:grid-cols-3 md:grid-cols-4 
         lg:grid-cols-5
         grid-flow-row gap-8"
