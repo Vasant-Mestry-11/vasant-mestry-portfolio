@@ -17,7 +17,7 @@ const AboutMe = () => {
             {`I began my journey as a web developer in 2020, and since then, I've
             continued to grow and evolve as a developer, taking on new
             challenges and learning the latest technologies along the way. Now,
-            6 years after starting my web development
+            5 years after starting my web development
             journey, I'm building cutting-edge web applications using modern
             technologies such as React, TypeScript, Tailwindcss and much more.`}
           </p>
