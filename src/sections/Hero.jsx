@@ -26,10 +26,9 @@ const Hero = () => {
             />
           </div>
           <p className="text-zinc-500 mt-2 text-md">
-            {`I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to specimen book.`}
+            A frontend developer with <strong>5 years of experience</strong>{" "}
+            specializing in building responsive, dynamic web applications using{" "}
+            <strong>ReactJS</strong>.
           </p>
           <div className="mb-2 left-4 flex gap-6 ">
             <IconButton

@@ -18,7 +18,13 @@ const Company = ({ id, title, description, start, end, logo }) => {
           {start} - {end}
         </h6>
       </span>
-      <p className="text-zinc-300 leading-relaxed break-word text-justify">{description}</p>
+      <p className="text-zinc-300 leading-relaxed break-word text-justify">
+        <ul className="list-disc px-6">
+          {description.map((point, idx) => (
+            <li key={idx}>{point}</li>
+          ))}
+        </ul>
+      </p>
     </div>
   );
 };
