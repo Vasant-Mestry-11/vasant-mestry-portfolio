@@ -7,11 +7,16 @@ import TailwindCSS from "../assets/tailwindcss.svg";
 import TypeScript from "../assets/typescript.svg";
 import PostgreSQL from "../assets/postgresql.svg";
 import Figma from "../assets/figma.svg";
+import Docker from "../assets/docker.svg";
 
 export const SKILLS = [
   {
     icon: Figma,
     title: "Figma",
+  },
+  {
+    icon: Docker,
+    title: "Docker",
   },
   {
     icon: Git,
