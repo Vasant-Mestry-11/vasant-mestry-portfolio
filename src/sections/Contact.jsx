@@ -75,7 +75,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-5">
-          <VariableWeightText regularText="Let's" extraBoldText="talk for" />
+          <VariableWeightText extraBoldText="Let's" outlinedText="talk for" />
           <VariableWeightText extraBoldText="Something special" />
           <p className="text-zinc-500">
             I seek to push the limits of creativity to create high-engaging,

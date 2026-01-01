@@ -30,3 +30,12 @@ footer {
 section {
   @apply container mx-auto px-4 py-10 lg:px-20 lg:py-[60px];
 }
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 6px black;
+    paint-order: stroke fill;
+    letter-spacing: 5px;
+  }
+}

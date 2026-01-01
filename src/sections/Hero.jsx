@@ -17,8 +17,9 @@ const Hero = () => {
               extraBoldText="Vasant Mestry ."
             />
             <VariableWeightText
-              extraBoldText="Frontend Developer"
+              extraBoldText="Frontend"
               regularText=""
+              outlinedText=" Developer"
             />
             <VariableWeightText
               regularText={`Based In`}
