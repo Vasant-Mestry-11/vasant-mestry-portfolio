@@ -38,4 +38,14 @@ section {
     paint-order: stroke fill;
     letter-spacing: 5px;
   }
+
+  @media screen and (width<=768px) {
+    .font-outline-2 {
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke: 4px black;
+      paint-order: stroke fill;
+      letter-spacing: 5px;
+      margin-left: 0.25rem;
+    }
+  }
 }

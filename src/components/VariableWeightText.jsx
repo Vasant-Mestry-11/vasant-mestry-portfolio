@@ -12,7 +12,7 @@ const VariableWeightText = ({
         invert && "invert"
       } ${classNames}`}
     >
-      {regularText && <span className="me-4">{regularText}</span>}
+      {regularText && <span className="me-2">{regularText}</span>}
       <span className="font-extrabold">
         <span className="font-extrabold"> {extraBoldText} </span>
         <span className="font-outline-2">{outlinedText}</span>
