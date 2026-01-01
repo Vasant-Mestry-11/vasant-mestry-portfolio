@@ -25,10 +25,14 @@ const Hero = () => {
               extraBoldText="Mumbai ."
             />
           </div>
-          <p className="text-zinc-500 mt-2 text-md">
-            A frontend developer with <strong>5 years of experience</strong>{" "}
-            specializing in building responsive, dynamic web applications using{" "}
-            <strong>ReactJS</strong>.
+          <p className="text-zinc-500 mt-2 text-base leading-6 font-normal">
+            <strong>Lead Software Engineer</strong> with over{" "}
+            <strong>5+ years of experience</strong>, specializing in the
+            development of responsive and modular web applications using{" "}
+            <strong>ReactJS</strong>. <br />
+            Expertise encompasses designing micro frontend architectures,
+            optimizing application performance, and mentoring junior developers
+            to cultivate innovation.
           </p>
           <div className="mb-2 left-4 flex gap-6 ">
             <IconButton

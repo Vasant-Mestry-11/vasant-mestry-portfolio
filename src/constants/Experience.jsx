@@ -10,8 +10,11 @@ export const COMPANIES = [
     start: "Jun 2024",
     end: "Present",
     description: [
-      "Developed new features using React and TypeScript.",
-      "Enhanced product accessibility to improve user experience.",
+      "Designed and implemented micro frontend architecture to enhance modularity and scalability.",
+      "Led development of multiple frontend plugins, aligning solutions with business and customer requirements",
+      "Collaborated with cross-functional teams to integrate user feedback into product enhancements",
+      "Optimized application performance through code reviews and best practice implementation",
+      "Mentored junior developers, fostering a culture of learning and innovation",
     ],
     logo: PSL,
   },

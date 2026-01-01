@@ -8,6 +8,7 @@ import TypeScript from "../assets/typescript.svg";
 import PostgreSQL from "../assets/postgresql.svg";
 import Figma from "../assets/figma.svg";
 import Docker from "../assets/docker.svg";
+import Next from "../assets/nextjs.svg";
 
 export const SKILLS = [
   {
@@ -22,16 +23,18 @@ export const SKILLS = [
     icon: Git,
     title: "Git",
   },
-
   {
     icon: Javascript,
     title: "Javascript",
   },
   {
+    icon: Next,
+    title: "NextJS",
+  },
+  {
     icon: PostgreSQL,
     title: "PostgreSQL",
   },
-
   {
     icon: React,
     title: "React",
@@ -40,7 +43,6 @@ export const SKILLS = [
     icon: Sass,
     title: "Sass / Scss",
   },
-
   {
     icon: StoryBook,
     title: "StoryBook",
